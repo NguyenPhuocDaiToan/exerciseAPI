@@ -1,0 +1,31 @@
+const express = require('express');
+const router = express.Router();
+const {baiTapController} = require('../../controllers/index');
+
+router.get('/cau1', baiTapController.cau1);
+router.get('/cau2', baiTapController.cau2);
+router.get('/cau3', baiTapController.cau3);
+router.get('/cau4', baiTapController.cau4);
+router.get('/cau5', baiTapController.cau5);
+router.get('/cau6', baiTapController.cau6);
+router.get('/cau7', baiTapController.cau7);
+router.get('/cau8', baiTapController.cau8);
+router.get('/cau9', baiTapController.cau9);
+router.get('/cau10', baiTapController.cau10);
+router.get('/cau11', baiTapController.cau11);
+router.get('/cau12', baiTapController.cau12);
+router.get('/cau13', baiTapController.cau13);
+router.get('/cau14', baiTapController.cau14);
+router.get('/cau15', baiTapController.cau15);
+router.get('/cau16', baiTapController.cau16);
+router.get('/cau17', baiTapController.cau17);
+router.get('/cau18', baiTapController.cau18);
+router.get('/cau19', baiTapController.cau19);
+router.get('/cau20', baiTapController.cau20);
+router.get('/cau21', baiTapController.cau21);
+router.get('/cau22', baiTapController.cau22);
+router.get('/cau23', baiTapController.cau23);
+router.get('/cau24', baiTapController.cau24);
+router.get('/cau25', baiTapController.cau25);
+
+module.exports = router;
